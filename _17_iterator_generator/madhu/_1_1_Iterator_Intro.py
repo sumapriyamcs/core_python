@@ -145,7 +145,8 @@ Note that any other kind of exception will pass through.
     => The __next__() method must return the next item in the sequence. 
        On reaching the end, and in subsequent calls, it must raise StopIteration.
 '''
-# Here, we show an example that will give us next power of 2 in each iteration. Power exponent starts from zero up to a user set number.
+# Here, we show an example that will give us next power of 2 in each iteration.
+# Power exponent starts from zero up to a user set number.
 
 class PowTwo:
 
